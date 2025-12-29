@@ -1,0 +1,48 @@
+/* src/index.css - Förenklad version */
+
+/* Ta bort @apply och använd vanlig CSS */
+body {
+  background-color: #f8fafc; /* bg-slate-50 */
+  color: #1e293b; /* text-slate-800 */
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom klasser med vanlig CSS */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+.hv-gradient-blue {
+  background: linear-gradient(135deg, #003366 0%, #0066CC 100%);
+}
+
+.hv-gradient-gold {
+  background: linear-gradient(135deg, #D4A843 0%, #b38a30 100%);
+}
+
+/* Tailwind directives måste finnas först */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Alternativt, använd Tailwind med inline classes i stället */

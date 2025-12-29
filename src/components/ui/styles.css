@@ -1,0 +1,51 @@
+/* Button variants */
+.btn {
+  @apply inline-flex items-center justify-center rounded-lg text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+}
+
+.btn-primary {
+  @apply bg-hv-gold text-white hover:bg-[#c49a3d];
+}
+
+.btn-secondary {
+  @apply bg-hv-blue text-white hover:bg-[#002244];
+}
+
+.btn-outline {
+  @apply border border-slate-200 bg-white hover:bg-slate-100;
+}
+
+/* Input styling */
+.input {
+  @apply flex h-10 w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-white file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-hv-lightblue focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+/* Card styling */
+.card {
+  @apply rounded-xl border border-slate-200 bg-white text-slate-950 shadow-sm;
+}
+
+.card-header {
+  @apply flex flex-col space-y-1.5 p-6;
+}
+
+.card-title {
+  @apply text-xl font-semibold leading-none tracking-tight;
+}
+
+.card-content {
+  @apply p-6 pt-0;
+}
+
+/* Badge styling */
+.badge {
+  @apply inline-flex items-center rounded-full border border-slate-200 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2;
+}
+
+.badge-primary {
+  @apply border-transparent bg-hv-gold text-white;
+}
+
+.badge-secondary {
+  @apply border-transparent bg-hv-blue text-white;
+}
