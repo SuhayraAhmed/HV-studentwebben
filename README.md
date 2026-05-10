@@ -1,8 +1,5 @@
 # HV Studentweb – Självservicesida för studenter
 
-
-HV Studentweb är en webbapplikation utvecklad som en prototyp för en förbättrad självservicesida för studenter vid Högskolan Väst. Projektet fokuserar på hur studenter söker efter, förstår och använder olika digitala tjänster i sin vardag.
-
 Syftet med projektet är att skapa en mer användarvänlig och studentcentrerad plattform där studenter enkelt kan hitta viktiga e-tjänster utan att behöva förstå högskolans interna system eller terminologi.
 
 Till skillnad från traditionella systemfokuserade plattformar är denna lösning utvecklad utifrån studenternas perspektiv. Tjänsterna organiseras efter studenternas behov och vanliga uppgifter istället för systemnamn.
