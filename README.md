@@ -5,7 +5,7 @@ Syftet med projektet är att skapa en mer användarvänlig och studentcentrerad 
 Till skillnad från traditionella systemfokuserade plattformar är denna lösning utvecklad utifrån studenternas perspektiv. Tjänsterna organiseras efter studenternas behov och vanliga uppgifter istället för systemnamn.
 
 #Länk till projektet:
-https://69526332f2ba8183c8e82358--sjalvserivce.netlify.app/
+https://sjalvserivceportal.netlify.app/
 
 Applikationen är utvecklad med React och Vite för att skapa ett snabbt, modernt och responsivt gränssnitt.
 
