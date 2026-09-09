@@ -1,40 +1,41 @@
-# HV Studentweb – Självservicesida för studenter
+# HV Studentweb – Student Self-Service Portal
 
-Syftet med projektet är att skapa en mer användarvänlig och studentcentrerad plattform där studenter enkelt kan hitta viktiga e-tjänster utan att behöva förstå högskolans interna system eller terminologi.
+The purpose of this project is to create a more user-friendly and student-centered platform where students can easily find important digital services without needing to understand the university's internal systems or terminology.
 
-Till skillnad från traditionella systemfokuserade plattformar är denna lösning utvecklad utifrån studenternas perspektiv. Tjänsterna organiseras efter studenternas behov och vanliga uppgifter istället för systemnamn.
+Unlike traditional system-focused platforms, this solution is designed from the students' perspective. Services are organized based on students' needs and common tasks rather than system names.
 
-#Länk till projektet:
-https://sjalvserivceportal.netlify.app/
+**Project link:** https://sjalvserivceportal.netlify.app/
 
-Applikationen är utvecklad med React och Vite för att skapa ett snabbt, modernt och responsivt gränssnitt.
-
----
-
-# Tekniker
-
-- React
-- Vite
-- JavaScript
-- HTML
-- CSS
-- npm
+The application is developed using React and Vite to provide a fast, modern, and responsive user interface.
 
 ---
 
-# Förutsättningar
+# Technologies
 
-Innan du kör projektet behöver du ha installerat:
+* React
+* Vite
+* JavaScript
+* HTML
+* CSS
+* npm
 
-- Node.js
-- npm
-- Git
+---
+
+# Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+* Node.js
+* npm
+* Git
 
 ---
 
 # Installation
 
-Klona projektet från GitHub:
+Clone the project from GitHub:
 
 ```bash
 git clone https://github.com/SuhayraAhmed/HV-studentwebben.git
+```
+
